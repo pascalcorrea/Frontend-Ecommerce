@@ -2,47 +2,29 @@ div.container-padre {
     background-color: #02384B;
 }
 
-div.container-image {
-    width: 250px;
-    padding: 40px;
-}
-
-div.container-redes {
-    height: 60px;
-    width: 100%;
-}
-svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
-    display: column;
-    width: 20%;
-    height: 60px;
-    padding: 20px;
-}
-
-
-.row {
-    display: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .col {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+}
+
+.logo-img {
+    width: 200px;
+    margin: 40px;
 }
 
 a.links {
     color: white; 
     display: flex;
     justify-content: start;
-    margin-left: 120px;
+
 }
 
 h1.important {
     color: white;
     display: flex;
     justify-content: start;
-    margin-left: 120px;
     font-size: 30px;
 }
 

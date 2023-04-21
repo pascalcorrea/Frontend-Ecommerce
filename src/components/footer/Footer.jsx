@@ -10,15 +10,13 @@ const Footer = () => {
     <div class='container-padre'>
       <Container>
         <Row>
-          <Col>
-            <div className='div'>
-            <Row>
+
+            <Col>
                 <div className='container-image'>
                     <img src={Logo} alt="" className='logo-img'/>
                 </div>
-            </Row>
-            </div>
-          </Col>
+            </Col>
+
           <Col>
             <div className='div'>
             <h1 className='redes' >Siguenos!</h1>
@@ -35,14 +33,13 @@ const Footer = () => {
             </Col>
             </div>
           </Col>
+
           <Col>
             <div className='div'>
-            <Row>
               <h1 className='important' >Important Links</h1>
               <a className='links' href="">Politica de privacidad</a>
               <a className='links' href="">Politica de devoluciones</a>
               <a className='links' href="">Contacto</a>
-            </Row>
             </div>
           </Col>
         </Row>

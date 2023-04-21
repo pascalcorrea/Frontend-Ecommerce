@@ -1,0 +1,25 @@
+.css-mlqxi3 {
+    margin-bottom: 40px !important;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):hover {
+    background-color: #3ad5ac;
+    color: white;
+    border: none;
+    margin: 20px;
+}
+
+.nav-link {
+    text-align: center;
+    color: #3ad5ac !important;
+    font-size: 22px !important;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.cart-icon-container {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
