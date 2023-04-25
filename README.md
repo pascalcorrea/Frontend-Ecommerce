@@ -8,11 +8,11 @@ Utilización de Mongo Atlas. Solo 3 tablas -> Usuario, Compras y Productos
 
 ### Tecnologias
 
-Nodejs - JavaScript Runtime
-Express - Framework de Nodejs
-Mongoose - Base de datos NoSQL
-React.js - Libreria JS
-CSS - Estilos
+Nodejs - JavaScript Runtime <br>
+Express - Framework de Nodejs <br>
+Mongoose - Base de datos NoSQL <br>
+React.js - Libreria JS <br>
+CSS - Estilos <br>
 Boostrap - Estilos
 
 #### Links
