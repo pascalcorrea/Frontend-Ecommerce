@@ -17,7 +17,9 @@ Boostrap - Estilos
 
 #### Links
 
-https://master--sparkling-froyo-949e50.netlify.app/
+Despliegue en Netlify https://master--sparkling-froyo-949e50.netlify.app/ <br>
+Repositorio Front-End: https://github.com/pascalcorrea/Frontend-Ecommerce
+Repositorio Back-End: 
 
 #### Fotos de proyecto 
 
