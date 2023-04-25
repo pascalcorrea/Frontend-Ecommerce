@@ -11,8 +11,8 @@ const PayPal = () => {
     const {reduceStock} = useContext(ProductContext)
     // const navigate = useNavigate();
 
-  return (
-    <PayPalScriptProvider options={{ "client-id": "AeLxB27A0xjkrkd9CZvjUBWoZCcbzhd-eP0axuRHrkzBhytqNSR5xxBqepFaw6K2tHW0pA3sYbOXTCIC" }}>
+return (
+    <PayPalScriptProvider options={{ "client-id": "Ab625sm6LBQooODZmSpzgWeXrx6vq6Fyb2EFFXJU9m2El1zUKoyuCzMKUQuJRdNUNSmttvJuY2d5tniE" }}>
             <PayPalButtons
                 createOrder={(data, actions) => {
                     return actions.order.create({
@@ -23,7 +23,7 @@ const PayPal = () => {
                                     currency: "USD"
                                 },
                             },
-                        ],
+                        ], 
                     });
                 }}
                 onApprove={(data, actions) => {
@@ -38,7 +38,7 @@ const PayPal = () => {
                 }}
             />
         </PayPalScriptProvider>
-  )
+    )
 }
 
 export default PayPal;
